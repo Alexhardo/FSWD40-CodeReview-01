@@ -1,5 +1,58 @@
-img{
-	
-	width: 500px;
-	height: 500px;
+header {
+    margin-top: 3px;
+}
+
+body {}
+
+#pic {
+    background-color: red;
+    color: white;
+}
+
+#bod {}
+
+#bod img {
+    width: 330px;
+    height: 330px;
+}
+
+.container {
+    font-family: arial;
+    width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#nav li {
+    display: inline;
+    padding-right: 30px;
+}
+
+#nav {
+
+    padding: 14px 16px;
+    margin-top: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-family: arial;
+}
+
+div.hd {
+    background-color: red;
+}
+
+
+footer {
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+    background-color: red;
 }
