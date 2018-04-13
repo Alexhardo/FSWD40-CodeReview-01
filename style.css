@@ -1,58 +1,57 @@
-header {
+header { /*set a top margin  */
     margin-top: 3px;
 }
 
-body {}
-
-#pic {
+#pic {  /*set the background color of the logo on red and the colore of the font on white */
     background-color: red;
     color: white;
 }
 
-#bod {}
+.container { /*set the size of the header and the footer on 800 px and fone on arial */
+        font-family: arial;
+        margin-left: 10cm;
+        width: 800px;
 
-#bod img {
-    width: 330px;
-    height: 330px;
+   
 }
 
-.container {
-    font-family: arial;
-    width: 800px;
-    margin: 0 auto;
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    margin-left: -500px;
-}
-
-#nav li {
+#nav li {     /*display the nav inline and set distance between the tabs*/
+    text-align: left;
     display: inline;
     padding-right: 30px;
 }
 
+a {
+    /*remove underline in nav and set color to white*/
+    text-decoration: none;
+    color: white;
+}
+
 #nav {
+    /*set distance between the nav elements and the background on gray and a margin from top as well*/
 
     padding: 14px 16px;
     margin-top: 5px;
-    background-color: gray;
-    color: white;
+    background-color: gray;    
     font-size: 25px;
 }
 
-figcaption {
+
+
+#bod img { /*resize the images and set a margin from top*/
+     margin-top: 1mm;
+    width: 397px;
+    height: 397px;
+   
+}
+
+figcaption { /*set a font type and size to the captions of the images */
     font-size: 1.3em;
     font-family: arial;
 }
 
-div.hd {
-    background-color: red;
-}
-
-
-footer {
+footer { /*set a color, location and padding for the footer*/
     padding: 14px 16px;
     text-align: center;
-    display: block;
     background-color: red;
 }
